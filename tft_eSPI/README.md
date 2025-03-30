@@ -1,11 +1,11 @@
-#Requirements:
+# Requirements:
 - ESP32 Wroom 32U
 - TFT SPI screen 2",240×320px, (GMT020-02)   (driver ST7789V)
 
-#ESP-32 DEV board usefull tips
-#Install the esp32 boards
+# ESP-32 DEV board usefull tips
+# Install the esp32 boards
 
-##Install display driver 
+## Install display driver 
 > Tools -> Manage libraries -> tft_espi by bodmer
 > Change the tft_espi header files
 > (path depends on library loc) /Arduino/libraries/TFT_eSPI/User_setup.h
@@ -35,3 +35,6 @@
 - SCK/SCLK/SCL (SD-Clock): SPI Clock
 - MOSI (SD-DI, DI) : SPI Master out Slave in
 - MISO (SD-DO, DO) : SPI Master in Slave out
+
+ <img width="300" align='left' src="./TFT_SPEC.png">
+
